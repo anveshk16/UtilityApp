@@ -86,7 +86,6 @@ switch (readLineSync.question("Choose which utility you want to use:\n1)URL Enco
     case "j": console.log(praseInt(readLineSync.question("Enter Octadecimal number: "), 8).toString(2));
       break;
 
-
     case "k": console.log(parseInt(readLineSync.question("Enter Octadecimal number: "), 8).toString(2));
       break;
 
@@ -112,7 +111,6 @@ switch (readLineSync.question("Choose which utility you want to use:\n1)URL Enco
         console.log("#" + convertColor(RGBcomponent.red) + convertColor(RGBcomponent.blue) + convertColor(RGBcomponent.green));
 
         break;
-
 
       case "b": let rgbColor = readLineSync.question("Enter RGB Value of the color: ");
         RGBcomponent.red = parseInt(rgbColor[1] + rgbColor[2], 16);
