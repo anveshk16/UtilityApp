@@ -119,6 +119,7 @@ switch (readLineSync.question("Choose which utility you want to use:\n1)URL Enco
         console.log(RGBcomponent);
 
         break;
+        
       default: console.log("Invalid Choice!");
 
     }
@@ -152,6 +153,7 @@ switch (readLineSync.question("Choose which utility you want to use:\n1)URL Enco
 
   }
     break;
+    
   default: console.log("Invalid choice entered!");
 
 }
